@@ -7,7 +7,7 @@ module A1439tyBmiV3
   height = gets.to_f
   print("body weight(kg):")
   weight = gets.to_f
-  bmi = ( weight / ( heigth/100)**2)
+  bmi = ( weight / ( height/100)**2)
   puts("BMI  ",bmi)
   
 end
