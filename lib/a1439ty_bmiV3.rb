@@ -4,7 +4,7 @@ module A1439tyBmiV3
   # Your code goes here...
   
   print("height(cm):")
-  height ~ gets.chomp
+  height = gets.chomp
   print("body weight(kg):")
   weight = gets.chomp
   bmi = (weight / (heigth/100)**2)
